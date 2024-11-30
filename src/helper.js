@@ -3,10 +3,10 @@ export const getCharacter = (fileIndex) => String.fromCharCode(fileIndex + 96);
 export const createPosition=()=>{
     const position=new Array(8).fill('').map(x => new Array(8).fill(''));
 
-    for(let i=0;i<8;i++){
-        position[i][1]='wp';
-        position[i][6]='bp';
-    }
+    // for(let i=0;i<8;i++){
+    //     position[i][1]='wp';
+    //     position[i][6]='bp';
+    // }
 
     position[0][0]='wr';
     position[1][0]='wn';
